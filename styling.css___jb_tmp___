@@ -1,0 +1,41 @@
+#map{
+    font-family: "Calibri Light";
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+
+    background-image: url("map3.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.box{
+    position: absolute;
+
+
+}
+.box:hover .text{
+    display: block;
+}
+
+.text{
+    display: none;
+    z-index: 10;
+    border-radius: 10%;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: rgba(3, 4, 24, 0.75);
+    width: 150px;
+    position: absolute;
+}
+.bin{
+    z-index: 0;
+    width: 20px;
+    height: 30px;
+    background-image: url("pin.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
