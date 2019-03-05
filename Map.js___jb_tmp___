@@ -4,7 +4,7 @@ let data =
 {'gov':'Qina' ,'desc' : "this is description",'top': 51 ,'left': 65 },
 {'gov': 'Portsaid','desc':"This is our Portsaid Company",'top': 1,'left': 62},
 {'gov': 'Dymyat','desc':"This is our dumyat Company",'top': 3,'left': 56},
-{'gov': 'Southern Sinai','desc':"shady is living in sina",'top': 20,'left': 72},
+{'gov': 'Southern Sinai','desc':"descrption",'top': 20,'left': 72},
 ];
 class Map{
     constructor(){
